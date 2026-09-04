@@ -1090,10 +1090,10 @@
       return;
     }
 
-    // Submit (simulated for static site)
+    // Submit - open email client with form data
     submitBtn.disabled = true;
     submitBtn.classList.add('loading');
-    submitBtn.textContent = 'Submitting...';
+    submitBtn.textContent = 'Opening email...';
 
     // Collect form data
     var formData = {
@@ -1114,14 +1114,34 @@
       message: document.getElementById('message').value
     };
 
-    console.log('Form submission data:', formData);
+    // Build mailto link
+    var subject = encodeURIComponent('Locke Investments Inquiry - ' + formData.inquiry_type);
+    var body = encodeURIComponent(
+      'Inquiry Type: ' + formData.inquiry_type + '\n' +
+      'Company: ' + formData.company_name + '\n' +
+      'Contact: ' + formData.contact_name + '\n' +
+      'Email: ' + formData.business_email + '\n' +
+      'Phone: ' + formData.telephone + '\n' +
+      'Website: ' + formData.company_website + '\n' +
+      'Company Type: ' + formData.company_type + '\n' +
+      'Brands: ' + formData.brands_represented + '\n' +
+      'Categories: ' + formData.product_categories + '\n' +
+      'Min Order: ' + formData.min_opening_order + '\n' +
+      'MOQ: ' + formData.moq + '\n' +
+      'Payment Terms: ' + formData.payment_terms + '\n' +
+      'Marketplace Restrictions: ' + formData.marketplace_restrictions + '\n' +
+      'MAP Policy: ' + formData.map_policy + '\n\n' +
+      'Message:\n' + formData.message
+    );
+
+    window.location.href = 'mailto:admin@lockeinvestments.net?subject=' + subject + '&body=' + body;
 
     // Show success
     setTimeout(function(){
       form.style.display = 'none';
       successDiv.style.display = 'block';
       stickyCta.classList.add('hidden');
-    }, 800);
+    }, 500);
   });
 
   // Scroll reveal
