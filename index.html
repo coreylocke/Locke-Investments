@@ -190,23 +190,24 @@
   .supplier-types span{font-family:var(--body);font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:#3A3220;background:rgba(12,26,10,.08);padding:5px 12px;border-radius:2px}
 
   /* ---------- operating model flow ---------- */
-  .op-model{margin:30px auto 0;position:relative;padding:0;max-width:480px}
-  .op-stage{padding:20px 0;position:relative;text-align:center}
-  .op-stage::after{content:"";position:absolute;left:50%;bottom:-8px;width:2px;height:16px;background:var(--gold);opacity:.5;transform:translateX(-50%);display:none}
+  .op-model{margin:30px auto 0;position:relative;padding:0;max-width:560px}
+  .op-stage{padding:16px 0;position:relative;text-align:center}
+  .op-stage::after{content:"";position:absolute;left:50%;bottom:-2px;width:2px;height:14px;background:var(--gold);opacity:.5;transform:translateX(-50%);display:none}
   .op-stage:last-child::after{display:none}
-  .op-box{background:var(--panel);border:1px solid var(--line);padding:24px 20px;border-radius:2px;display:inline-block;min-width:200px;max-width:100%}
+  .op-box{background:var(--panel);border:1px solid var(--line);padding:24px 20px;border-radius:2px;display:block;margin:0 auto;width:100%;max-width:420px}
   .op-box .op-label{font-family:var(--body);font-size:9px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
   .op-box .op-title{font-weight:700;font-size:15px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
   .op-box .op-items{display:flex;flex-wrap:wrap;gap:4px 10px;justify-content:center;font-size:.88rem;color:var(--mut)}
   .op-flow-row{margin-top:0}
-  .op-arrow{display:flex;justify-content:center;padding:6px 0}
+  .op-arrow{display:flex;justify-content:center;align-items:center;padding:2px 0;height:36px}
   .op-arrow svg{width:24px;height:24px;display:block;color:var(--gold);opacity:.6}
   @media(min-width:840px){
     .op-model{display:flex;flex-direction:column;align-items:center;gap:0}
-    .op-stage{padding:0;flex:none;width:100%;max-width:420px}
+    .op-stage{padding:0;flex:none;width:100%;max-width:560px}
     .op-stage::after{content:none}
     .op-connector{flex-shrink:0;width:24px}
-    .op-box{min-width:unset;width:100%;padding:20px 16px}
+    .op-box{min-width:unset;width:100%;max-width:420px;padding:20px 16px}
+    .op-arrow{height:32px;padding:0}
   }
   @media(max-width:839px){
     .op-model{display:flex;flex-direction:column;align-items:center}
