@@ -190,7 +190,7 @@
   .supplier-types span{font-family:var(--body);font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:#3A3220;background:rgba(12,26,10,.08);padding:5px 12px;border-radius:2px}
 
   /* ---------- operating model flow ---------- */
-  .op-model{margin-top:30px;position:relative;padding:0}
+  .op-model{margin:30px auto 0;position:relative;padding:0;max-width:480px}
   .op-stage{padding:20px 0;position:relative;text-align:center}
   .op-stage::after{content:"";position:absolute;left:50%;bottom:-8px;width:2px;height:16px;background:var(--gold);opacity:.5;transform:translateX(-50%);display:none}
   .op-stage:last-child::after{display:none}
@@ -206,11 +206,11 @@
     .op-stage{padding:0;flex:none;width:100%;max-width:420px}
     .op-stage::after{content:none}
     .op-connector{flex-shrink:0;width:24px}
-    .op-box{min-width:unset;width:100%;padding:20px 12px}
+    .op-box{min-width:unset;width:100%;padding:20px 16px}
   }
   @media(max-width:839px){
     .op-model{display:flex;flex-direction:column;align-items:center}
-    .op-stage{width:100%;max-width:420px}
+    .op-stage{width:100%}
     .op-box{width:100%}
     .op-stage::after{display:block}
   }
