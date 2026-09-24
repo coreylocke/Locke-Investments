@@ -1,0 +1,132 @@
+{
+  "summary": {
+    "webAnimations": 3,
+    "cssDeclarations": 86,
+    "scrollTargets": 41,
+    "cdpAnimations": 161,
+    "canvases": 0
+  },
+  "namedAnimations": [
+    "flow"
+  ],
+  "scrollTriggeredElements": 41,
+  "representativeAnimations": [
+    {
+      "type": "CSSAnimation",
+      "playState": "running",
+      "animationName": "flow",
+      "targetSelector": "path",
+      "targetRect": {
+        "x": 1283.59375,
+        "y": 411.2573547363281,
+        "width": 0,
+        "height": 33.95257568359375,
+        "top": 411.2573547363281,
+        "right": 1283.59375,
+        "bottom": 445.2099304199219,
+        "left": 1283.59375
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "replace",
+          "strokeDashoffset": "0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "strokeDashoffset": "-40px",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear",
+        "direction": "normal"
+      }
+    },
+    {
+      "type": "CSSAnimation",
+      "playState": "running",
+      "animationName": "flow",
+      "targetSelector": "path",
+      "targetRect": {
+        "x": 1283.59375,
+        "y": 513.1150512695312,
+        "width": 0,
+        "height": 33.95257568359375,
+        "top": 513.1150512695312,
+        "right": 1283.59375,
+        "bottom": 547.067626953125,
+        "left": 1283.59375
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "replace",
+          "strokeDashoffset": "0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "strokeDashoffset": "-40px",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear",
+        "direction": "normal"
+      }
+    },
+    {
+      "type": "CSSAnimation",
+      "playState": "running",
+      "animationName": "flow",
+      "targetSelector": "path",
+      "targetRect": {
+        "x": 1283.59375,
+        "y": 605.9187622070312,
+        "width": 0,
+        "height": 33.95257568359375,
+        "top": 605.9187622070312,
+        "right": 1283.59375,
+        "bottom": 639.871337890625,
+        "left": 1283.59375
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "replace",
+          "strokeDashoffset": "0px",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "strokeDashoffset": "-40px",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear",
+        "direction": "normal"
+      }
+    }
+  ]
+}

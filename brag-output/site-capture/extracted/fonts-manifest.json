@@ -1,0 +1,111 @@
+{
+  "files": [
+    {
+      "file": "xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggSxSvfedN62Zw.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggixSvfedN62Zw.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggmxSvfedN62Zw.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "xn7gYHE41ni1AdIRggqxSvfedN62Zw.woff2",
+      "family": "Manrope",
+      "rawFamily": "Manrope ExtraLight",
+      "subfamily": "Regular",
+      "postscript": "Manrope-ExtraLight",
+      "weight": 200,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    }
+  ],
+  "families": [
+    {
+      "family": "Manrope",
+      "weights": [
+        200
+      ],
+      "variable": true,
+      "fileCount": 6,
+      "files": [
+        "xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2",
+        "xn7gYHE41ni1AdIRggSxSvfedN62Zw.woff2",
+        "xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+        "xn7gYHE41ni1AdIRggixSvfedN62Zw.woff2",
+        "xn7gYHE41ni1AdIRggmxSvfedN62Zw.woff2",
+        "xn7gYHE41ni1AdIRggqxSvfedN62Zw.woff2"
+      ]
+    }
+  ],
+  "unidentified": [],
+  "meta": {
+    "generatedAt": "2026-09-24T20:36:11.071Z",
+    "tool": "fontkit"
+  }
+}

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Locke Investments LLC — Site Walkthrough</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Manrope";
+        src: url("assets/fonts/manrope-var.woff2") format("woff2");
+        font-weight: 300 800;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: #071426;
+        color: #F5F6F7;
+        font-family: "Manrope", system-ui, sans-serif;
+        overflow: hidden;
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #071426;
+      }
+      .clip { position: absolute; inset: 0; }
+      .gold-text { color: #C5A45D; }
+      .tag-label {
+        font-size: 22px; font-weight: 600; letter-spacing: .22em;
+        text-transform: uppercase; color: #C5A45D;
+        border: 2px solid rgba(197,164,93,.45);
+        display: inline-block; padding: 10px 20px;
+      }
+      .center-col {
+        position: absolute; inset: 0;
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center;
+        text-align: center; padding: 0 200px;
+      }
+      .headline {
+        font-size: 110px; font-weight: 800; letter-spacing: -.01em;
+        line-height: 1.05; text-transform: uppercase; margin: 0;
+      }
+      .status-strip { position: absolute; top: 0; left: 0; right: 0; height: 10px; background: #C5A45D; }
+      .corner-tag {
+        position: absolute; top: 48px; left: 56px;
+        font-size: 20px; font-weight: 700; letter-spacing: .2em;
+        text-transform: uppercase; color: #C5A45D;
+      }
+      .brand-lockup {
+        position: absolute; bottom: 44px; right: 56px;
+        font-size: 18px; font-weight: 700; letter-spacing: .2em;
+        text-transform: uppercase; color: #C2C7CE;
+      }
+      /* site label chip */
+      .site-chip {
+        position: absolute; top: 44px; left: 50%; transform: translateX(-50%);
+        background: rgba(16,36,61,.9); border: 1px solid rgba(197,164,93,.5);
+        color: #C5A45D; font-size: 24px; font-weight: 700; letter-spacing: .14em;
+        text-transform: uppercase; padding: 12px 28px; border-radius: 2px;
+        white-space: nowrap;
+      }
+      /* ---------- device stage ---------- */
+      .stage { position: absolute; inset: 0; overflow: hidden; }
+      .stage-glow {
+        position: absolute; width: 1400px; height: 1400px; border-radius: 50%;
+        background: radial-gradient(circle, rgba(197,164,93,.10) 0%, transparent 60%);
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      /* monitor */
+      .monitor {
+        position: absolute; top: 50%; left: 50%;
+        width: 1280px; height: 800px;
+        transform: translate(-50%, -50%);
+        background: #0C1E33;
+        border: 14px solid #10243D;
+        border-radius: 22px;
+        box-shadow: 0 60px 120px rgba(0,0,0,.55), 0 0 0 2px rgba(197,164,93,.12) inset;
+      }
+      .monitor-screen {
+        position: absolute; inset: 22px;
+        overflow: hidden; border-radius: 10px;
+        background: #f5f6f7;
+      }
+      .monitor-screen .site-strip {
+        position: absolute; top: 0; left: 0;
+        width: 100%;
+      }
+      .monitor-stand {
+        position: absolute; bottom: -118px; left: 50%; transform: translateX(-50%);
+        width: 220px; height: 110px;
+        background: linear-gradient(180deg, #10243D, #0C1E33);
+        border-radius: 0 0 14px 14px;
+      }
+      .monitor-foot {
+        position: absolute; bottom: -132px; left: 50%; transform: translateX(-50%);
+        width: 420px; height: 26px;
+        background: #10243D; border-radius: 8px;
+      }
+      /* phone */
+      .phone {
+        position: absolute; top: 50%; left: 50%;
+        width: 430px; height: 880px;
+        transform: translate(-50%, -50%);
+        background: #0C1E33;
+        border: 12px solid #10243D;
+        border-radius: 52px;
+        box-shadow: 0 60px 120px rgba(0,0,0,.6), 0 0 0 2px rgba(197,164,93,.12) inset;
+      }
+      .phone-notch {
+        position: absolute; top: 16px; left: 50%; transform: translateX(-50%);
+        width: 190px; height: 34px; background: #071426; border-radius: 18px;
+        z-index: 3;
+      }
+      .phone-screen {
+        position: absolute; top: 64px; left: 14px; right: 14px; bottom: 14px;
+        overflow: hidden; border-radius: 30px; background: #f5f6f7;
+      }
+      .phone-screen .site-strip {
+        position: absolute; top: 0; left: 0;
+        width: 100%;
+      }
+      /* caption under device */
+      .device-caption {
+        position: absolute; bottom: 60px; left: 0; right: 0; text-align: center;
+        font-size: 30px; font-weight: 600; color: #E3E6EA; letter-spacing: .08em;
+      }
+      .device-caption .gold { color: #C5A45D; font-weight: 700; }
+      /* scroll hint */
+      .scroll-hint {
+        display: flex; align-items: center; gap: 12px;
+        font-size: 20px; letter-spacing: .14em; text-transform: uppercase; color: #C5A45D;
+      }
+      .scroll-hint .bar { width: 26px; height: 2px; background: #C5A45D; }
+      /* outro */
+      .outro-wrap {
+        position: absolute; inset: 0;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        text-align: center; padding: 0 220px;
+      }
+      .outro-block {
+        background: #10243D; border-top: 6px solid #C5A45D;
+        border-bottom: 2px solid rgba(245,246,247,.12);
+        padding: 54px 90px; width: 100%;
+      }
+      .outro-tag {
+        font-size: 22px; font-weight: 600; letter-spacing: .2em;
+        text-transform: uppercase; color: #C5A45D; margin-bottom: 18px;
+      }
+      .outro-h {
+        font-size: 58px; font-weight: 800; line-height: 1.15;
+        text-transform: uppercase; color: #F5F6F7; margin: 0;
+      }
+      .outro-cta {
+        margin-top: 40px; font-size: 26px; font-weight: 700; letter-spacing: .16em;
+        text-transform: uppercase; color: #071426; background: #C5A45D;
+        display: inline-block; padding: 18px 44px; border-radius: 2px;
+      }
+      .wordmark {
+        margin-top: 44px; display: flex; align-items: center; gap: 18px;
+        font-size: 30px; font-weight: 800; letter-spacing: .18em;
+        text-transform: uppercase; color: #F5F6F7;
+      }
+      .wordmark .wm-gold { color: #C5A45D; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="locke-walkthrough" data-width="1920" data-height="1080" data-duration="30">
+
+      <!-- ============ SCENE 1 — HOOK (0–2.5s) ============ -->
+      <section class="clip" data-start="0" data-duration="2.5">
+        <div class="status-strip" data-track-index="1"></div>
+        <div class="corner-tag" id="s1-corner">Locke Investments LLC</div>
+        <div class="center-col">
+          <div class="tag-label" id="s1-tag">Wholesale Procurement · Multichannel Retail</div>
+          <h1 class="headline" id="s1-line">Better <span class="gold-text">sourcing.</span></h1>
+        </div>
+        <div class="brand-lockup" id="s1-url">lockeinvestments.net</div>
+      </section>
+
+      <!-- ============ SCENE 2 — DESKTOP SITE (2.5–13.5s) ============ -->
+      <section class="clip" data-start="2.5" data-duration="11.0">
+        <div class="stage">
+          <div class="stage-glow" id="glow-desk"></div>
+          <div class="site-chip" id="chip-desk">lockeinvestments.net</div>
+          <div class="monitor" id="monitor">
+            <div class="monitor-screen" data-layout-allow-overflow>
+              <img class="site-strip" id="desk-strip" src="assets/desktop-strip.png" alt="lockeinvestments.net desktop">
+            </div>
+          </div>
+          <div class="monitor-stand"></div>
+          <div class="monitor-foot"></div>
+          <div class="device-caption" id="cap-desk">On <span class="gold">desktop</span> — the full site</div>
+        </div>
+      </section>
+
+      <!-- ============ SCENE 3 — PHONE SITE (13.5–27.5s) ============ -->
+      <section class="clip" data-start="13.5" data-duration="14.0">
+        <div class="stage">
+          <div class="stage-glow" id="glow-phone"></div>
+          <div class="site-chip" id="chip-phone">lockeinvestments.net</div>
+          <div class="phone" id="phone">
+            <div class="phone-notch"></div>
+            <div class="phone-screen" data-layout-allow-overflow>
+              <img class="site-strip" id="phone-strip" src="assets/mobile-strip.png" alt="lockeinvestments.net mobile">
+            </div>
+          </div>
+          <div class="device-caption" id="cap-phone">
+            <span class="scroll-hint" style="justify-content:center;"><span class="bar"></span> Scrolling the sections <span class="bar"></span></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SCENE 4 — OUTRO (27.5–30.0s) ============ -->
+      <section class="clip" data-start="27.5" data-duration="2.5">
+        <div class="outro-wrap">
+          <div class="outro-block" id="outro-block">
+            <div class="outro-tag" id="outro-tag">Open for wholesale accounts</div>
+            <h2 class="outro-h" id="outro-h">Let's build a long-term purchasing relationship.</h2>
+            <div class="outro-cta" id="outro-cta">Start the conversation</div>
+          </div>
+          <div class="wordmark" id="outro-wm"><span class="wm-gold">◆</span> Locke <span class="wm-gold">Investments</span> LLC</div>
+        </div>
+      </section>
+
+      <!-- ============ AUDIO ============ -->
+      <audio id="bg-music" data-start="0" data-duration="30" data-track-index="10" data-volume="0.30"
+        src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
+      <audio id="sfx-desk-in" data-start="2.8" data-duration="0.5" data-track-index="11" data-volume="0.45"
+        src="assets/sfx/interface/drop_001.ogg"></audio>
+      <audio id="sfx-phone-in" data-start="8.7" data-duration="0.55" data-track-index="12" data-volume="0.45"
+        src="assets/sfx/interface/drop_001.ogg"></audio>
+      <audio id="sfx-scroll" data-start="16.0" data-duration="0.4" data-track-index="13" data-volume="0.35"
+        src="assets/sfx/impactSoft_medium_001.ogg"></audio>
+      <audio id="sfx-claim" data-start="28.0" data-duration="1.2" data-track-index="14" data-volume="0.5"
+        src="assets/sfx/impactSoft_medium_000.ogg"></audio>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      /* ---------- Scene 1: Hook (0–2.5) ---------- */
+      tl.fromTo("#s1-corner", { autoAlpha: 0, y: -12 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0.15);
+      tl.fromTo("#s1-tag", { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "power2.out" }, 0.55);
+      tl.fromTo("#s1-line", { autoAlpha: 0, y: 34 }, { autoAlpha: 1, y: 0, duration: 0.7, ease: "power3.out" }, 1.1);
+      tl.fromTo("#s1-url", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.5, ease: "power2.out" }, 1.7);
+
+      /* ---------- Scene 2: Desktop monitor (2.5–8.5) ---------- */
+      // monitor rises in
+      tl.fromTo("#monitor", { autoAlpha: 0, y: 90, scale: 0.94 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.8, ease: "power3.out" }, 2.9);
+      tl.fromTo("#chip-desk", { autoAlpha: 0, y: -14 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 3.3);
+      tl.fromTo("#cap-desk", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 3.5);
+      tl.fromTo("#glow-desk", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1.2, ease: "power1.out" }, 3.0);
+      // rendered strip height = 8640 * (1252/1920) = 5633px; screen viewport ~756px
+      // very slow desktop pan: 3400px over 8.5s (~400 px/s)
+      tl.fromTo("#desk-strip", { y: 0 }, { y: -3400, duration: 8.5, ease: "power1.inOut" }, 3.8);
+      tl.to("#monitor", { autoAlpha: 0.9, scale: 1.03, duration: 0.5, ease: "power1.in" }, 12.8);
+
+      /* ---------- Scene 3: Phone (8.5–18.5) ---------- */
+      tl.fromTo("#phone", { autoAlpha: 0, y: 110, scale: 0.9, rotation: -4 }, { autoAlpha: 1, y: 0, scale: 1, rotation: 0, duration: 0.85, ease: "power3.out" }, 13.9);
+      tl.fromTo("#chip-phone", { autoAlpha: 0, y: -14 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 14.4);
+      tl.fromTo("#cap-phone", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 14.6);
+      tl.fromTo("#glow-phone", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1.0, ease: "power1.out" }, 14.0);
+      // very slow mobile scroll: 3600px pan over 11.7s (~310 px/s) — calm thumb browse
+      tl.fromTo("#phone-strip", { y: 0 }, { y: -3600, duration: 11.7, ease: "power1.inOut" }, 15.5);
+      tl.to("#phone", { autoAlpha: 0.85, scale: 0.96, duration: 0.4, ease: "power1.in" }, 27.0);
+
+      /* ---------- Scene 4: Outro (18.5–21.5) ---------- */
+      tl.fromTo("#outro-block", { autoAlpha: 0, y: 44 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "power3.out" }, 28.0);
+      tl.fromTo("#outro-tag", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.4, ease: "power2.out" }, 28.3);
+      tl.fromTo("#outro-h", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power3.out" }, 28.5);
+      tl.fromTo("#outro-cta", { autoAlpha: 0, scale: 0.92 }, { autoAlpha: 1, scale: 1, duration: 0.45, ease: "power2.out" }, 28.9);
+      tl.fromTo("#outro-wm", { autoAlpha: 0, y: 18 }, { autoAlpha: 1, y: 0, duration: 0.5, ease: "power2.out" }, 29.2);
+
+      window.__timelines["locke-walkthrough"] = tl;
+    </script>
+  </body>
+</html>

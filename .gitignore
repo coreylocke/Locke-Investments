@@ -1,0 +1,3 @@
+# Duplicate staging folder for here.now publish link (brag.mp4/jpg already at brag-output root)
+brag-output/share-to-client/
+.DS_Store

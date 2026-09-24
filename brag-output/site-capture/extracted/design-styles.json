@@ -1,0 +1,245 @@
+{
+  "typography": [
+    {
+      "role": "display",
+      "fontFamily": "Manrope",
+      "fontSize": "57.6px",
+      "fontWeight": "700",
+      "lineHeight": "62.208px",
+      "letterSpacing": "-0.864px",
+      "color": "#F5F6F7",
+      "sampleText": "Better sourcing.Stronger commerce."
+    },
+    {
+      "role": "heading",
+      "fontFamily": "Manrope",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "lineHeight": "36.8px",
+      "letterSpacing": "0.16px",
+      "color": "#F5F6F7",
+      "sampleText": "What we do"
+    },
+    {
+      "role": "body",
+      "fontFamily": "Manrope",
+      "fontSize": "17.6px",
+      "fontWeight": "400",
+      "lineHeight": "29.92px",
+      "letterSpacing": "normal",
+      "color": "#E3E6EA",
+      "sampleText": "Locke Investments LLC is a Michigan-based wholesale procurem"
+    },
+    {
+      "role": "heading-3",
+      "fontFamily": "Manrope",
+      "fontSize": "16.8px",
+      "fontWeight": "600",
+      "lineHeight": "21.84px",
+      "letterSpacing": "normal",
+      "color": "#F5F6F7",
+      "sampleText": "Strategic sourcing operations"
+    },
+    {
+      "role": "label",
+      "fontFamily": "Manrope",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "color": "#F5F6F7",
+      "sampleText": "Suppliers Supply Chain Manufacturers Distributors Wholesaler"
+    },
+    {
+      "role": "link",
+      "fontFamily": "Manrope",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px",
+      "color": "#C2C7CE",
+      "sampleText": "What We Do"
+    }
+  ],
+  "spacing": {
+    "observed": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      30,
+      32
+    ],
+    "baseUnit": 8
+  },
+  "radius": [
+    "2px"
+  ],
+  "shadows": [],
+  "buttons": [
+    {
+      "label": "Supplier Inquiry",
+      "background": "#C5A45D",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#0C1A0A",
+      "padding": "8px 16px",
+      "borderRadius": "2px",
+      "border": "0px none rgb(12, 26, 10)",
+      "boxShadow": "none",
+      "fontSize": "11px",
+      "fontWeight": "700",
+      "height": "33.5938px"
+    },
+    {
+      "label": "Supplier Inquiry\n            Company Inf",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F5F6F7",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px none rgb(245, 246, 247)",
+      "boxShadow": "none",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "height": "49.1875px"
+    },
+    {
+      "label": "Company Information",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F5F6F7",
+      "padding": "14px 22px",
+      "borderRadius": "2px",
+      "border": "1px solid rgba(245, 246, 247, 0.12)",
+      "boxShadow": "none",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "height": "49.1875px"
+    },
+    {
+      "label": "Open a Wholesale Account",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#0C1A0A",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px none rgb(12, 26, 10)",
+      "boxShadow": "none",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "height": "47.1875px"
+    },
+    {
+      "label": "Open a Wholesale Account",
+      "background": "#0C1A0A",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#C5A45D",
+      "padding": "14px 22px",
+      "borderRadius": "2px",
+      "border": "0px none rgb(197, 164, 93)",
+      "boxShadow": "none",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "height": "47.1875px"
+    }
+  ],
+  "cards": [
+    {
+      "label": "card",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F5F6F7",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px none rgb(245, 246, 247)",
+      "boxShadow": "none",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "height": "341.391px"
+    },
+    {
+      "label": "card",
+      "background": "#10243D",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F5F6F7",
+      "padding": "32px 24px",
+      "borderRadius": "2px",
+      "border": "1px solid rgba(245, 246, 247, 0.06)",
+      "boxShadow": "none",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "height": "341.391px"
+    },
+    {
+      "label": "card",
+      "background": "#10243D",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#F5F6F7",
+      "padding": "20px 16px",
+      "borderRadius": "2px",
+      "border": "1px solid rgba(245, 246, 247, 0.12)",
+      "boxShadow": "none",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "height": "116.906px"
+    }
+  ],
+  "nav": {
+    "label": "navigation",
+    "background": "#071426",
+    "backgroundImage": "",
+    "backdropFilter": "blur(12px)",
+    "color": "#F5F6F7",
+    "padding": "0px",
+    "borderRadius": "0px",
+    "border": "",
+    "boxShadow": "none",
+    "fontSize": "16.5px",
+    "fontWeight": "400",
+    "height": "67px"
+  },
+  "chips": [
+    {
+      "label": "Open for wholesale accou",
+      "background": "transparent",
+      "color": "#0C1A0A",
+      "padding": "5px 10px",
+      "borderRadius": "2px",
+      "border": "1px solid rgba(12, 26, 10, 0.35)",
+      "boxShadow": "none",
+      "fontSize": "10px",
+      "fontWeight": "600",
+      "height": "28px"
+    }
+  ],
+  "statCells": [],
+  "tabs": [],
+  "backgrounds": [],
+  "glass": [
+    {
+      "backdropFilter": "blur(12px)",
+      "background": "rgba(7, 20, 38, 0.92)",
+      "border": "",
+      "borderRadius": "0px",
+      "boxShadow": "",
+      "area": 128640
+    }
+  ]
+}

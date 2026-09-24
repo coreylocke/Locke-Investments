@@ -1,0 +1,285 @@
+[a] Skip to content
+[span] Locke
+[span] Investments
+[span] Wholesale Procurement & Multichannel Retail
+[a] What We Do
+[a] Our Process
+[a] What We Source
+[a] Suppliers
+[a] Supplier Inquiry
+[a] What We Do
+[a] Our Process
+[a] What We Source
+[a] Suppliers
+[a] Supplier Inquiry
+[a] Supplier Inquiry
+[a] Call
+[b] Base
+[span] Michigan · USA
+[b] Entity
+[span] Member-Managed LLC
+[b] Model
+[span] Wholesale Purchasing
+[b] Operations
+[span] Wholesale Procurement & Distribution
+[span] Wholesale Procurement • Multichannel Retail • Supplier Partnerships
+[h1] Better sourcing.
+[span] Stronger commerce.
+[p] Locke Investments LLC is a Michigan-based wholesale procurement and multichannel retail company focused on sourcing consumer products through established manufacturers, authorized distributors and wholesale suppliers.
+[p] We emphasize legitimate sourcing, documented inventory, responsible product representation and long-term supplier relationships.
+[a] Supplier Inquiry
+[a] Company Information
+[text] SUPPLIERS
+[text] MANUFACTURERS · DISTRIBUTORS
+[text] LOCKE INVESTMENTS LLC
+[text] PURCHASING · ANALYSIS · COMPLIANCE
+[text] 3PL INFRASTRUCTURE
+[text] RECEIVING · STORAGE · FULFILLMENT
+[text] RETAIL CHANNELS → CONSUMERS
+[h2] What we do
+[p] Locke Investments operates within wholesale procurement and multichannel retail, sourcing legitimate consumer inventory through established commercial supply relationships.
+[b] Wholesale Procurement
+[h3] Strategic sourcing operations
+[p] We source inventory through established commercial supply relationships and distribute across approved retail channels serving U.S. consumers.
+[p] Product distribution occurs through approved marketplaces, direct retail properties and other channels as they become active.
+[b] Wholesale Purchasing
+[h3] Legitimate inventory sourcing
+[p] We purchase inventory from manufacturers, authorized distributors and established wholesale suppliers.
+[p] We maintain appropriate purchasing records and supplier documentation for inventory acquired for resale.
+[b] Commerce Operations
+[h3] Structured operations
+[p] We manage product evaluation, purchasing, inventory, fulfillment coordination, pricing and marketplace compliance through structured internal processes.
+[h2] How products enter our portfolio
+[p] Every purchasing opportunity moves through a structured evaluation process before inventory is acquired.
+[h3] Market Evaluation
+[p] Evaluate consumer demand, sales history, marketplace conditions, competition, pricing behavior, category restrictions, marketplace eligibility and brand limitations.
+[h3] Supplier Verification
+[p] Evaluate business legitimacy, inventory authenticity, invoice quality, product availability, shipping capability, account requirements, returns procedures, marketplace restrictions and brand authorization when applicable.
+[h3] Cost & Opportunity Analysis
+[p] Evaluate unit cost, freight, marketplace fees, fulfillment costs, expected returns, inventory velocity, competitive pricing, margin requirements, restock potential and total landed cost.
+[h3] Purchase & Monitoring
+[p] Approved opportunities move into purchasing, inventory receiving, 3PL coordination, pricing monitoring, marketplace monitoring, replenishment analysis and supplier relationship management.
+[h2] What we source
+[p] Locke Investments evaluates purchasing opportunities across multiple consumer-product categories.
+[p] Categories of interest
+[div] Beauty & Personal Care
+[div] Consumer Accessories
+[div] General Merchandise
+[div] Home & Kitchen
+[div] Household Essentials
+[div] Industrial Safety
+[div] Janitorial Supply
+[div] Lawn & Garden
+[div] Maintenance/Facility Supply
+[div] Office Products
+[div] Pet Supplies
+[div] Restaurant Supply
+[div] Sports & Outdoors
+[div] Tools & Home Improvement
+[div] Toys & Games
+[p] Locke Investments evaluates products according to supplier requirements, marketplace rules and applicable laws. We do not intentionally distribute merchandise requiring licensing or authorization the company does not possess.
+[span] Open for wholesale accounts
+[h2] Let’s build a long-term purchasing relationship.
+[p] Locke Investments LLC is actively establishing relationships with manufacturers, authorized distributors, wholesalers and brand owners. We are interested in reliable suppliers offering authentic inventory, transparent commercial terms and sustainable purchasing opportunities.
+[span] Manufacturers
+[span] Authorized Distributors
+[span] Distributors
+[span] Wholesalers
+[span] Brand Owners
+[span] Master Distributors
+[span] Established Importers
+[span] Specialty Suppliers
+[p] What we provide suppliers:
+[li] Michigan LLC Documentation
+[li] Michigan Sales Tax License
+[li] Michigan Resale Documentation
+[li] EIN Verification & W-9
+[li] Verifiable U.S. Business Address
+[li] Dedicated Business Telephone
+[li] Dedicated Purchasing Contact
+[li] Dedicated Accounts Payable Contact
+[li] Company-Domain Email
+[li] Prepaid Purchasing Capability
+[li] Card Purchasing Capability
+[li] 3PL Receiving Infrastructure
+[li] Electronic Purchasing Workflows
+[li] Electronic Invoice Workflows
+[li] Multichannel Retail Infrastructure
+[a] Open a Wholesale Account
+[h2] Business verification
+[p] Locke Investments LLC maintains standard documentation commonly requested during wholesale account applications and supplier onboarding.
+[p] Available to qualified suppliers:
+[div] • EIN Verification
+[div] • Completed W-9
+[div] • Michigan LLC Documentation
+[div] • Michigan Sales Tax License
+[div] • Michigan Resale Documentation
+[div] • Business Address Verification
+[div] • Purchasing Information
+[div] • Accounts Payable Information
+[div] • 3PL Receiving Information
+[div] • Additional Vendor-Onboarding Documentation
+[h3] Need Business Documentation?
+[p] EIN verification, W-9, resale documentation and other standard business records are available to qualified manufacturers, distributors and wholesale suppliers upon request.
+[a] Request Business Documentation
+[h2] Operating model
+[div] Suppliers
+[div] Supply Chain
+[span] Manufacturers
+[span] Distributors
+[span] Wholesalers
+[div] Locke Investments LLC
+[div] Core Operations
+[span] Purchasing
+[span] Analysis
+[span] Supplier Management
+[span] Compliance
+[div] 3PL
+[div] Fulfillment
+[span] Receiving
+[span] Storage
+[span] Preparation
+[span] Fulfillment
+[div] Multichannel Retail
+[div] Marketplace Sales
+[span] Online Marketplaces
+[span] Direct E-Commerce
+[span] Social Commerce
+[span] Multi-Channel Retail
+[div] End Customer
+[div] Consumers
+[span] U.S. Market
+[strong] Planned retail channels:
+[p] Locke Investments is developing a multichannel retail operation spanning online marketplaces, direct e-commerce, social commerce platforms and additional approved retail channels.
+[p] Product placement and sales channels are subject to supplier agreements, brand requirements, marketplace eligibility and applicable sales-channel restrictions.
+[strong] Purchasing & Payment:
+[p] Initial supplier orders are generally prepaid or card-paid using payment methods accepted by the supplier. Locke Investments may apply for commercial credit or Net payment terms with qualifying suppliers as purchasing relationships develop.
+[strong] Inventory Receiving:
+[p] Locke Investments utilizes third-party logistics infrastructure for inventory receiving, storage, preparation and fulfillment. Specific receiving addresses and shipping instructions are provided to approved suppliers during the purchasing process.
+[h2] Company details
+[p] The following information is provided to help suppliers, vendors and business partners verify Locke Investments LLC.
+[dt] Legal Name
+[dd] Locke Investments LLC
+[dt] Structure
+[dd] Member-Managed Limited Liability Company
+[dt] Formed
+[dd] August 17, 2022
+[dt] State
+[dd] Michigan, United States
+[dt] Resident Agent
+[dd] Corey Locke
+[dt] Business Address
+[dd] 24615 Camille Drive, Harrison Township, MI 48045
+[dt] Telephone
+[a] 512-964-2313
+[dt] Business Model
+[dd] Wholesale Procurement & Multichannel Retail
+[dt] Inventory Receiving
+[dd] Third-Party Logistics (3PL)
+[dt] Sales Tax
+[dd] Michigan Sales Tax License
+[dt] Resale Documentation
+[dd] Available to Qualified Suppliers Upon Request
+[dt] EIN Verification & W-9
+[dd] Available to Qualified Suppliers Upon Request
+[h2] Start a conversation
+[p] Use the form below for wholesale opportunities, supplier onboarding, documentation requests or general business inquiries.
+[label] Inquiry Type
+[option] Select inquiry type
+[option] Wholesale Account / Supplier Opportunity
+[option] Business Documentation Request
+[option] Product Opportunity
+[option] Brand Partnership
+[option] Pricing / Catalog
+[option] Accounts Payable
+[option] General Business Inquiry
+[option] Other
+[label] Company Name *
+[label] Contact Name *
+[label] Business Email *
+[label] Telephone *
+[label] Company Website
+[label] Company Type
+[option] Select type
+[option] Manufacturer
+[option] Authorized Distributor
+[option] Distributor
+[option] Wholesaler
+[option] Brand Owner
+[option] Importer
+[option] Service Provider
+[option] Other
+[label] Brands Represented
+[label] Product Categories
+[label] Minimum Opening Order
+[label] MOQ / Case-Pack Requirements
+[label] Payment Terms Available
+[label] Marketplace Restrictions
+[label] MAP Policy
+[option] Select
+[option] Yes
+[option] Not Applicable
+[option] Unknown
+[label] Message *
+[label] I agree that Locke Investments LLC may use the information provided to respond to this business inquiry.
+[a] Privacy Policy
+[button] Submit Inquiry
+[h3] Thank you.
+[p] Your inquiry has been sent to Locke Investments LLC. Our team will review the information and respond using the contact information provided.
+[h2] Contact directory
+[p] Contact the appropriate department directly.
+[h3] Purchasing
+[a] purchasing@lockeinvestments.net
+[h3] Accounts Payable
+[a] accountspayable@lockeinvestments.net
+[h3] Administration
+[a] admin@lockeinvestments.net
+[h3] Compliance
+[a] compliance@lockeinvestments.net
+[h3] Legal
+[a] legal@lockeinvestments.net
+[h3] Customer Support
+[a] support@lockeinvestments.net
+[h3] Telephone
+[a] 512-964-2313
+[h3] Mailing Address
+[address] Locke Investments LLC
+[address] 24615 Camille Drive
+[address] Harrison Township, MI 48045
+[address] United States
+[h2] Policies
+[span] Last updated — August 2026
+[h3] Privacy Policy
+[p] Locke Investments LLC respects the privacy of our website visitors, suppliers and business partners. This policy explains how we handle information collected through LockeInvestments.net.
+[p] When you submit an inquiry through our form or contact us by email, we receive the information you provide: your name, company name, email address, telephone number and any additional details you include. We use this information solely to respond to your inquiry and evaluate potential business relationships.
+[p] We do not sell, rent or share personal information with third parties for their marketing purposes. Information may be shared only with service providers who help us operate this website and manage communications, under strict confidentiality agreements.
+[p] This website itself sets no cookies and runs no unnecessary tracking scripts. We use Google Analytics 4 in privacy-compliant mode to understand general site usage patterns; no personally identifiable information is sent to analytics platforms.
+[p] If you have questions about what information we hold, or wish to request deletion of data not required for business record-keeping, contact us at
+[p] admin@lockeinvestments.net
+[span] Last updated — August 2026
+[h3] Terms of Use
+[p] This website is the official corporate site of Locke Investments LLC. By using this site, you agree to the following terms.
+[p] All content on LockeInvestments.net is provided for general informational purposes only and may be updated at any time without notice. Nothing on this site constitutes an offer to sell, a solicitation of an offer to buy, or a binding commitment to enter into any business relationship.
+[p] Product names, brand names and trademarks referenced on this site or in our business operations belong to their respective owners and do not imply affiliation or endorsement.
+[p] To the fullest extent permitted by applicable law, Locke Investments LLC disclaims all liability arising from the use of this website. These terms are governed by the laws of the State of Michigan, United States.
+[span] Last updated — August 2026
+[h3] Accessibility
+[p] Locke Investments LLC is committed to ensuring digital accessibility for all visitors, including those with disabilities. We strive to conform to WCAG 2.1 AA standards.
+[p] This site is built with semantic HTML, logical heading hierarchy, keyboard-navigable controls, visible focus states, descriptive link text and alternative text for meaningful images. We test regularly and address issues as they are identified.
+[p] If you encounter any accessibility barriers while using this site, please contact us at
+[p] admin@lockeinvestments.net
+[p] so we can address the issue.
+[span] Last updated — August 2026
+[h3] Supplier Communications Policy
+[p] Locke Investments LLC values clear, professional communication with our suppliers and business partners.
+[p] All supplier-facing communications originate from company-domain email addresses (lockeinvestments.net). We encourage suppliers to verify email authenticity and report any suspicious communications claiming to represent our company.
+[p] Supplier inquiries submitted through this website or directed to our purchasing department receive a response within standard business hours. We maintain appropriate records of purchasing communications in accordance with our record-keeping obligations.
+[p] Sensitive business documentation, including financial and tax information, is exchanged only through secure channels after appropriate verification of the requesting party.
+[p] Locke Investments
+[p] Michigan · USA
+[p] All rights reserved
+[a] Privacy Policy
+[a] Terms of Use
+[a] Accessibility
+[a] Supplier Communications Policy
+[p] Locke Investments LLC is an independent wholesale procurement and multichannel retail company. Product names, brands and trademarks shown in connection with our business operations belong to their respective owners and do not imply any affiliation or endorsement.

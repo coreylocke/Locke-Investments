@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="route" viewBox="0 0 340 280" role="presentation">
+            <!-- Supplier node -->
+            <rect class="node" x="30" y="8" width="280" height="44" rx="2"></rect>
+            <text class="nt" x="46" y="27">SUPPLIERS</text>
+            <text x="46" y="41">MANUFACTURERS · DISTRIBUTORS</text>
+
+            <!-- Arrow -->
+            <path class="flow" d="M170 52 V82"></path>
+            <path class="ah" d="M170 90 l-5 -8 h10 Z"></path>
+
+            <!-- Locke Investments node -->
+            <rect class="node node-li" x="30" y="90" width="280" height="52" rx="2"></rect>
+            <text class="nt" x="46" y="111">LOCKE INVESTMENTS LLC</text>
+            <text x="46" y="127">PURCHASING · ANALYSIS · COMPLIANCE</text>
+
+            <!-- Arrow -->
+            <path class="flow" d="M170 142 V172"></path>
+            <path class="ah" d="M170 180 l-5 -8 h10 Z"></path>
+
+            <!-- 3PL node -->
+            <rect class="node" x="30" y="180" width="280" height="44" rx="2"></rect>
+            <text class="nt" x="46" y="199">3PL INFRASTRUCTURE</text>
+            <text x="46" y="213">RECEIVING · STORAGE · FULFILLMENT</text>
+
+            <!-- Arrow -->
+            <path class="flow" d="M170 224 V254"></path>
+            <path class="ah" d="M170 262 l-5 -8 h10 Z"></path>
+
+            <!-- Retail Channels node -->
+            <rect class="node" x="30" y="262" width="280" height="18" rx="2"></rect>
+            <text class="nt" style="font-size:9.5px" x="46" y="275">RETAIL CHANNELS → CONSUMERS</text>
+          </svg>
